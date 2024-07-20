@@ -63,7 +63,7 @@ const MarkAttendance = () => {
   return (
     <div>
       <div className="branches mt-5 mb-3 d-block mx-auto" style={{width : '800px'}}>
-      <select id="branchSelect" className="form-select" aria-placeholder='select branch' value={selectedBranch} onChange={handleBranchChange}>
+      <select id="branchSelect" className="form-select" aria-label='select branch' value={selectedBranch} onChange={handleBranchChange}>
           {branches.map(branch => (
             <option key={branch} value={branch}>{branch}</option>
           ))}

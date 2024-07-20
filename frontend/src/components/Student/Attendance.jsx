@@ -37,7 +37,7 @@ function ViewAttendance() {
     }
 
     fetchClassesRequired();
-  }, []);
+  }, [id]);
 
   const handleClickOpen = () => {
     setOpen(true);
