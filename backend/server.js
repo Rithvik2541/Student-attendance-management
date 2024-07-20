@@ -101,7 +101,7 @@ app.use(exp.static(path.join(__dirname, '../frontend/build')));
 
 app.use(cors());
 
-const uri = 'mongodb+srv://rithvikvarma2541:rithvik45@edu-manager.ts3txyi.mongodb.net/';
+const uri = MONGODB_URL;
 
 mc.connect(uri)
   .then(client => {
