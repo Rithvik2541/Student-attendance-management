@@ -101,7 +101,7 @@ app.use(exp.static(path.join(__dirname, '../frontend/build')));
 
 app.use(cors());
 
-const uri = MONGODB_URI;
+const uri = 'mongodb+srv://vercel-admin-user:rz7WJZpDLLkuODhJ@edu-manager.ts3txyi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 mc.connect(uri)
   .then(client => {
