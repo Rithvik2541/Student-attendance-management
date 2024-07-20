@@ -101,11 +101,11 @@ app.use(exp.static(path.join(__dirname, '../frontend/build')));
 
 app.use(cors());
 
-const uri = 'mongodb+srv://rithvikvarma2541:rithvik@edutrack.0izhie9.mongodb.net/eduprime?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://rithvikvarma2541:rithvik45@edu-manager.ts3txyi.mongodb.net/';
 
 mc.connect(uri)
   .then(client => {
-    const dbObj = client.db('Edutrack');
+    const dbObj = client.db('eduprime'); 
 
     const studentCollection = dbObj.collection('studentCollection');
     const leaveCollection = dbObj.collection('leaveCollection');
