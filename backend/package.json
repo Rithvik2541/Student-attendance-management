@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
   "start": "node server.js",
-  "build": "npm install && npm run build"
+  "build": "echo 'No build step required for backend'"
   },
   "author": "Rithvik",
   "license": "ISC",
