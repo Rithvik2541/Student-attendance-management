@@ -97,7 +97,7 @@ const cron = require('node-cron');
 require('dotenv').config();
 
 // deploying react build in this server
-app.use(exp.static(path.join(__dirname, '../frontend/build')));
+// app.use(exp.static(path.join(__dirname, '../frontend/build')));
 
 app.use(cors());
 
