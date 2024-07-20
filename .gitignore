@@ -5,3 +5,4 @@ frontend/build
 /build
 /backend/requests
 .env
+railway.toml
