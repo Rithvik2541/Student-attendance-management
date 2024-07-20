@@ -6,7 +6,7 @@ import { Toaster, toast } from 'sonner';
 const MarkAttendance = () => {
   const [students, setStudents] = useState([]);
   const [filteredStudents, setFilteredStudents] = useState([]);
-  const [branches, setBranches] = useState(['CSE', 'IT', 'EEE', 'AUTOMOBILE', 'CIVIL']);
+  const branches = ['CSE', 'IT', 'EEE', 'AUTOMOBILE', 'CIVIL']
   const [selectedBranch, setSelectedBranch] = useState('CSE');
 
   useEffect(() => {

@@ -13,7 +13,7 @@ import { CounterContext } from '../ContextAPI/CounterContext';
 function TeacherProfile() {
   const [showMore, setShowMore] = useState(false);
   const location = useLocation();
-  let [id, setId] = useContext(CounterContext);
+  let [id] = useContext(CounterContext);
 
   const toggleMore = () => {
     setShowMore(!showMore);

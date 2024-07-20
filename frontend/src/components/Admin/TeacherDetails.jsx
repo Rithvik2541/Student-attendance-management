@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'sonner';
-import { axiosWithToken } from '../AxiosWithToken';
+// import { axiosWithToken } from '../AxiosWithToken';
 
 
 function TeacherDetails() {

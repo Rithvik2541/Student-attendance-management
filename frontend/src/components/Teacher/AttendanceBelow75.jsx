@@ -1,7 +1,7 @@
-import { duration } from '@mui/material';
+// import { duration } from '@mui/material';
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import { Toaster, toast } from 'sonner';
+import { toast } from 'sonner';
 
 const Below75 = () => {
   
@@ -32,7 +32,7 @@ const Below75 = () => {
 
   async function selectAll(){
     let res = await axios.post('http://localhost:4000/teacher-app/mail-to-all', students)
-    console.log("mail sent to all");
+    console.log("mail sent to all",res);
   }
 
   return (

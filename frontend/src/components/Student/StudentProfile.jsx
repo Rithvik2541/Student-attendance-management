@@ -13,8 +13,9 @@ function StudentProfile() {
   const [showMore, setShowMore] = useState(false);
   const [courses, setCourses] = useState([]);
   const location = useLocation();
-  const [id, setId] = useContext(CounterContext);
+  const [id] = useContext(CounterContext);
 
+  console.log(courses)
   const toggleMore = () => {
     setShowMore(!showMore);
   };

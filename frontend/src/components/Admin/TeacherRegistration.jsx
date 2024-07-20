@@ -3,7 +3,7 @@ import './AddTeacher.css';
 import axios from 'axios';
 import { toast } from 'sonner';
 import { useForm } from 'react-hook-form';
-import { axiosWithToken } from '../AxiosWithToken';
+// import { axiosWithToken } from '../AxiosWithToken';
 import './TeacherRegistration.css'
 
 function AddTeacher() {

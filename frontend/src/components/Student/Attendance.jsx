@@ -8,11 +8,12 @@ import { CounterContext } from '../ContextAPI/CounterContext';
 function ViewAttendance() {
   const [value, setValue] = useState(70.00);
   const [open, setOpen] = useState(false);
-  const totalClasses = 250;
+  // const totalClasses = 250;
   const [classesToAttend, setClassesToAttend] = useState(0);
   const [classesCompleted, setClassesCompleted] = useState(0);
+  console.log(classesCompleted)
   const requiredPercentage = 75;
-  let [id, setId] = useContext(CounterContext);
+  let [id] = useContext(CounterContext);
   useEffect(() => {
     // Fetch the attendance percentage
     axios.get(`http://localhost:4000/student-app/attendance/${id}`)

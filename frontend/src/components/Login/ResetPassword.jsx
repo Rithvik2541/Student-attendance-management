@@ -2,7 +2,7 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import './ResetPassword.css';
 import axios from 'axios';
-import { Toaster, toast } from 'sonner';
+import { toast } from 'sonner';
 
 const ResetPassword = () => {
   const { register, handleSubmit, reset, formState: { errors } } = useForm();

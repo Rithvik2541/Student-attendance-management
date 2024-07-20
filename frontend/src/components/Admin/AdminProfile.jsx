@@ -12,7 +12,7 @@ import { CounterContext } from '../ContextAPI/CounterContext';
 function AdminProfile() {
   const [showMore, setShowMore] = useState(false);
   const location = useLocation();
-  const [id, setId] = useContext(CounterContext);
+  const [id] = useContext(CounterContext);
 
   const toggleMore = () => {
     setShowMore(!showMore);

@@ -11,7 +11,7 @@ import Announcements from './components/Student/Announcements';
 import Holidays from './components/Student/Holidays'
 import MarkAttendance from '../src/components/Teacher/MarkAttendance'
 import MakeAnnouncements from './components/Teacher/AddAnnouncements'
-import ApprovrLeave from './components/Teacher/ApproveLeave';
+// import ApprovrLeave from './components/Teacher/ApproveLeave';
 import Below75 from './components/Teacher/AttendanceBelow75';
 import AllLeave from './components/Teacher/AllLeaves';
 import RouterError from './components/RouterError'
