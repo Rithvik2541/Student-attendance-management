@@ -146,9 +146,9 @@ app.use('/teacher-app', teacherApp);
 app.use('/admin-app', adminApp);
 
 // routing middleware from react || deals with page refresh 
-app.use((req, res, next) => {
-  res.sendFile(path.join(__dirname, '../frontend/build/index.html'));
-});
+// app.use((req, res, next) => {
+//   res.sendFile(path.join(__dirname, '../frontend/build/index.html'));
+// });
 
 // error handling middleware
 app.use((err, req, res, next) => {
@@ -156,6 +156,8 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(4000, () => console.log("Running on port 4000"));
+
+app.use
 
 // Cleanup function
 const cleanUpExpiredDocuments = async (db) => {
