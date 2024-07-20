@@ -1,0 +1,37 @@
+.card {
+    padding: 20px;
+    margin: 20px auto;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .form-item {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .form-item:last-child {
+    margin-right: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+   
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+
+  }

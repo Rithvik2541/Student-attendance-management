@@ -1,0 +1,42 @@
+.card {
+    margin: 0 auto; 
+  }
+  
+  .form-group {
+    padding: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .form-item {
+    flex: 1;
+  }
+  
+  .form-item label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-item input,
+  .form-item select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .btn {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  .shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }

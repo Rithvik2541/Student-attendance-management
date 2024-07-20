@@ -1,0 +1,53 @@
+.student-profile {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+}
+
+.sidebar {
+  transition: width 0.3s;
+  overflow: hidden;
+  width: 80px;
+  padding-top: 1rem;
+}
+
+.sidebar.expanded {
+  width: 300px;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+}
+
+.nav-link.active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.profile-content {
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.card {
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem;
+  color: white;
+}
+
+.card-body {
+  background-color: aliceblue;
+  padding: 1rem;
+}

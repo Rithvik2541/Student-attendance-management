@@ -1,0 +1,36 @@
+css:body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .left-side {
+    background: linear-gradient(to bottom right, #ff5f6d, #ffc371);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0px 100px 0px 100px;
+  }
+  
+  .left-side .logo img {
+    width: 100%;
+    border-radius: 10%;
+  }
+  
+  .login-form .form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-btn {
+    background-color: #ff5f6d;
+    color: white;
+  }
+  
+  .login-btn:hover {
+    background-color: #e44e50;
+  }

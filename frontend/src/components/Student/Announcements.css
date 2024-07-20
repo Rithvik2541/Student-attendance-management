@@ -1,0 +1,22 @@
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .announcements-table {
+    width: 100%;
+   
+    border-collapse: collapse;
+  }
+  .announcements-table td {
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .date-time {
+    font-weight: bold;
+  }
+  
+  .message {
+    margin-top: 5px;
+    font-weight: normal;
+  }
