@@ -40,10 +40,3 @@
   <li>Email Notifications: NodeMailer</li>
 </ul>
 
-<h3>Tech Stack</h3>
-<h4>Prerequisites</h4>
-<ul>
-  <li>Node.js</li>
-  <li>MongoDB atlas account</li>
-  <li>Git</li>
-</ul>
