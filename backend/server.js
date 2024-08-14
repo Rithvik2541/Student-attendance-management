@@ -103,6 +103,7 @@ app.use(cors());
 
 const uri = 'mongodb+srv://vercel-admin-user:rz7WJZpDLLkuODhJ@edu-manager.ts3txyi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
+// this is new git edit
 mc.connect(uri)
   .then(client => {
     const dbObj = client.db('eduprime'); 
