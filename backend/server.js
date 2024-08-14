@@ -97,7 +97,7 @@ const cron = require('node-cron');
 require('dotenv').config();
 
 // deploying react build in this server
-// app.use(exp.static(path.join(__dirname, '../frontend/build')));
+app.use(exp.static(path.join(__dirname, '../frontend/build')));
 
 app.use(cors());
 
@@ -145,10 +145,10 @@ app.use('/student-app', studentApp);
 app.use('/teacher-app', teacherApp);
 app.use('/admin-app', adminApp);
 
-// routing middleware from react || deals with page refresh 
-// app.use((req, res, next) => {
-//   res.sendFile(path.join(__dirname, '../frontend/build/index.html'));
-// });
+// routing middleware from react which deals with page refresh 
+app.use((req, res, next) => {
+  res.sendFile(path.join(__dirname, '../frontend/build/index.html'));
+});
 
 // error handling middleware
 app.use((err, req, res, next) => {
