@@ -1,6 +1,6 @@
 <h1>MERN Attendance Management System</h1>
 
-<p>here is the link of <a href="https://studentattendancemanagement.onrender.com/">Student Attendance Management</a> </p>
+<p>Here is the deployed link of <a href="https://studentattendancemanagement.onrender.com/"><b>Student Attendance Management</b></a> </p>
 
 <h3>Overview</h3>
 <p>This project is a comprehensive Attendance Management System built using the MERN stack (MongoDB, Express, React, Node.js). It facilitates the management and tracking of attendance for students, teachers, and administrators with various functionalities tailored to each user role. The system also integrates Material UI for design and NodeMailer for sending emails.</p>
